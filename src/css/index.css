@@ -1,0 +1,250 @@
+header {
+	height: 80px;
+	line-height: 80px;
+	background: #1c46ba;
+}
+
+.head {
+	margin: 0 auto;
+	width: 1200px;
+	height: 80px;
+}
+
+.head .logo {
+	float: left;
+}
+
+.head .head-nav {
+	float: right;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.clearfix:after,
+.clearfix:before {
+	clear: both;
+	content: '.';
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	display: block;
+}
+
+.head-nav ul li {
+	position: relative;
+	height: 80px;
+	text-align: center;
+	float: left;
+	margin-left: 70px;
+}
+
+.head-nav ul li a {
+	line-height: 35px;
+	display: inline-block;
+	color: #fff;
+	font-family: "microsoft yahei";
+	font-size: 16px;
+}
+
+.head-nav ul li a:hover+span {
+	position: absolute;
+	display: inline-block;
+	height: 2px;
+	width: 20px;
+	left: 50%;
+	border-radius: 2px;
+	margin-left: -10px;
+	bottom: 15px;
+	text-align: center;
+	background: #FFFFFF;
+}
+
+.banner {
+	overflow: hidden;
+	background: #1d53f9;
+	height: 1000px;
+}
+
+.banner .wz {
+	text-align: center;
+	margin: 240px auto 45px;
+}
+
+.wz .wa {
+	font-size: 20px;
+	color: #FFFFFF;
+	line-height: 35px;
+	margin-bottom: 140px;
+	text-align: center;
+}
+
+.btn {
+	width: 140;
+	height: 40px;
+	padding: 10px 30px;
+	background: #ffffff;
+	color: #7aadff;
+	font-weight: bold;
+	border: 1px solid #FFFFFF;
+}
+
+footer {
+	height: 60px;
+	line-height: 60px;
+	color: #adadae;
+	text-align: center;
+	background: #15171c;
+}
+.content-plan,
+.content-activitv,
+.content-us{
+	position: relative;
+	padding-bottom: 100px;
+	background: #f8f8f8;
+	overflow: hidden;
+}
+.content-activitv{
+	background: #fff;
+}
+.numtab{
+	position: absolute;
+	top: 28.125rem;
+	left: 2.5rem;
+}
+.top-jt{
+	position: absolute;
+	color: #959595;
+	left: 2.5rem;
+	bottom: 6.25rem;
+}
+.top-jt span{
+	font-size: 20px;
+	font-weight: bold;
+}
+.numtab ul>li{
+	line-height: 72px;
+	font-size:20px ;
+}
+.conbox {
+	margin-top: 110px;
+}
+
+.conbox .conbox-title {
+	height: 40px;
+	line-height: 40px;
+}
+
+.conbox-title img {
+	vertical-align: middle;
+}
+
+.conbox-title-l {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.conbox-title-more {
+	font-size: 14px;
+	color: #0762ff;
+}
+
+.conbox-body {
+	margin-top: 75px;
+}
+
+.conbox-body .conbox-group {
+	margin-bottom: 25px;
+}
+.conbox-body .conbox-group {
+	display: flex;
+	justify-content: space-between;
+}
+
+.conbox-group .conbox-item {
+	width: 270px;
+}
+
+.conbox-item .showimg {
+	height: 210px;
+	background: #d8d8d8;
+	margin-bottom: 35px;
+}
+.conbox-item .showtext {
+	padding:0 20px;
+}
+
+.conbox-item .showtext h3 {
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.showtext .showtext-con {
+	margin-top: 20px;
+	font-size: 16px;
+	line-height: 20px;
+	word-wrap: break-word;
+}
+
+.activitv-group .activeDate{
+	text-align: center;
+	float: left;
+}
+
+.activeDate p{
+	display: inline-block;
+	font-size: 34px;
+	line-height: 40px;
+}
+.activeDate p span:first-of-type{
+	font-size: 40px;
+	border-bottom: 1px solid #1b74ff;
+}
+.activitv-group .activitv-item{
+	margin-bottom: 20px;
+}
+.activitv-group .activenews{
+	margin-left: 30px;
+}
+.activenews .activenews-title{
+	font-size: 20px;
+	margin-bottom: 30px;
+	line-height: 24px;
+}
+.activenews  .news-con{
+	line-height: 24px;
+	width: 730px;
+	text-overflow: ellipsis;
+}
+.conbox-body .about-us {
+	text-align: center;
+	margin-bottom: 76px;
+}
+.conbox-body .about-us .btn{
+	margin-right: 60px;
+}
+.conbox-body .usbox{
+	
+}
+.us-con .con-title{
+	font-size: 20px;
+	color: #333333;
+	margin-bottom: 36px;
+}
+.usbox .us-con{
+	width: 670px;
+	font-size: 16px;
+	color: #333333;
+	line-height: 26px;
+}
+
+.foot{
+	height: 330px;
+	background: #1a2128;
+}
